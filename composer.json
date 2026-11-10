@@ -1,0 +1,28 @@
+{
+  "name": "nasuhakay/image-optimizer",
+  "description": "High-performance PHP image optimizer with automatic multi-driver fallback (Imagick / GD) and WebP/AVIF conversion.",
+  "type": "library",
+  "keywords": ["php", "image-optimization", "webp", "avif", "imagick", "gd", "compression"],
+  "homepage": "https://github.com/nasuhakay/php-image-optimizer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nasuh AKAY",
+      "email": "nasuhakay@msn.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "suggest": {
+    "ext-imagick": "Recommended for superior compression and AVIF/WebP support",
+    "ext-gd": "Fallback lightweight driver"
+  },
+  "autoload": {
+    "psr-4": {
+      "NasuhAkay\\ImageOptimizer\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
